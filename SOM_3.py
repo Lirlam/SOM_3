@@ -26,4 +26,3 @@ bounds = Bounds([86], [150])
 result = optimize.minimize(umsatzfunktion, [42], bounds=bounds)
 
 print("Optimaler Preis: ", np.round(result.x, 2), "CHF")
-
