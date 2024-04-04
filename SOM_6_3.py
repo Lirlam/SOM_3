@@ -24,6 +24,7 @@ events['starttime'] = pd.to_datetime(events['starttime'])
 ## Aufgabe 3 DFG
 # read in pandas dataframe into pm4py log
 eventlog = events.copy()
+
 # Specify which columns correspond to case (case:concept:name), # event (concept: name) and timestamp (time:timestamp) eventlog.rename(columns={'endtime': 'time:timestamp',
 
 eventlog.rename(columns={"endtime": "time:timestamp", "starttime": "start_timestamp",
